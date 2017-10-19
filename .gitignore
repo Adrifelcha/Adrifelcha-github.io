@@ -1,1 +1,1 @@
-_site/
+_site/    #Because Jekyll is going to create a copy of everything, everytime I commit any changes
