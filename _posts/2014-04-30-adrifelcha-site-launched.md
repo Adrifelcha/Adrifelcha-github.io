@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My very first entry of this diary called Life"
-date: 2014-04-30
+date: 2017-10-19
 ---
 
 <p> Ok, let's take a look at how things are going with my life...
