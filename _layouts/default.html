@@ -5,6 +5,17 @@
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		
+		<style>
+			header {
+    				padding: 3em;
+    				color: white;
+    				background: linear-gradient(to bottom right, #086A87, #000000);
+    				clear: left;
+    				text-align: center;
+    				border: 1px solid gray;
+			
+			</style>
 		</head>
 		<body>
 			<nav>
@@ -15,6 +26,12 @@
 	        		<li><a href="/blog">Blog</a></li>
 	    		</ul>
 			</nav>
+			
+			<header>
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+    			</header>
+			
 			<div class="container">
 			
 			{{ content }}
