@@ -9,10 +9,11 @@ title: Adrifelcha's Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    
-	    <div class="container" style="background-color:green;">
+	    <li>
+	    <div class="container" style="background-color:green; margin-left:50px;">
 	    <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 	    </div> 
+	    </li>
 	    <br><br>
 		  
 		    
