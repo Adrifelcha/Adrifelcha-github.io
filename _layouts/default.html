@@ -8,7 +8,16 @@
 			<title>{{ page.title }}</title>
 				
 		<style>
-			header {
+			header.style1 {
+    				padding: 1em;
+    				color: white;
+    				background-color: black;
+    				text-align: center;
+    				border: 3px dotted white;
+				width: 100;
+			}
+			
+			header.style2 {
     				padding: 1em;
     				color: white;
     				background-color: black;
@@ -45,7 +54,11 @@
 	    		</ul>
 			</nav>
 			
-			<header>
+			<header class=style1>
+      <h1 class="project-name">Adriana F. Chávez</h1>
+    			</header>
+			
+			<header class=style2>
       <h1 class="project-name">{{ page.title }}</h1>
     			</header>
 			
