@@ -5,7 +5,7 @@ comments: true
 
 <div class="notes">
 		<div class="note single">
-			<div class="container">
+			<div class="container" style="width:80%;">
 			<h1 class="title" style="text-align:center;">{{ page.title }}</h1>
 			
 			<h2 class="date" style="text-align:right"><info datetime="{{ page.date }}">
@@ -23,8 +23,9 @@ comments: true
 			<hr>
 
 			<!-- Post comments -->
+			<div class="container" style="width:90%;">
 			<div class="notecomments">
 				{% include disqus.html %}	 
 			</div>
-			</div>
+			</div></div>
 </div><!-- /.notes -->
