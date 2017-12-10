@@ -8,9 +8,9 @@ comments: true
 			<div class="container" style="width:80%;">
 				<h1 class="title" style="text-align:center;"><b><u>{{ page.title }}</u></b></h1>
 			
-			<h2 class="date" style="text-align:right"><info datetime="{{ page.date }}">
+			<h4 class="date" style="text-align:right"><info datetime="{{ page.date }}">
 				{{ page.date | date_to_string }} {% if page.author %} by {{ page.author }} {% endif %}
-			</info></h2>
+			</info></h4>
 			<!-- Post content -->
 			<div class="notebody">
 				{{ content }}
